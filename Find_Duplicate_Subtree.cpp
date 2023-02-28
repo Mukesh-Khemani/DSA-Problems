@@ -12,7 +12,7 @@ class Solution {
         if(!root) return "NULL";
 
         // To store the tree of current node 
-        string tree = to_string(root->val) + ',';
+        string tree = to_string(root->val) + ',' ;
         // Recur for left and right sub-trees and add them
         // to current node
         tree += preOrder(root->left) + ',';
