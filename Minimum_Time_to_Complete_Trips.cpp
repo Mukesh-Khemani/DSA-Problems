@@ -6,8 +6,9 @@ As per the constraints of the problem, brute force would give TLE. So rather tha
 brute force, we can take use binary search to cut the search space by half each time 
 to locate the minimum valid time. Start with initializing the left (lower boundary) 
 as left = 1 since it is the minimum possible valid time and the right (upper boundary) as 
-right = 10000000 where maximum_time equals the maximum time taken by one trip, so right 
-is guaranteed to be long enough. Therefore, the minimum time is included in this search space.
+right = 10^14(maximum time as per constraints) where maximum_time equals the maximum time 
+taken by one trip, so right is guaranteed to be long enough. Therefore, the minimum time 
+is included in this search space.
 
 Then we keep checking if  mid which is the average of left and right is long enough.
 
