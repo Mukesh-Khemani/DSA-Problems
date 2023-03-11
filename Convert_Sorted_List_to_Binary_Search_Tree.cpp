@@ -10,7 +10,7 @@ APPROACH:
 -> Set the middle element of the right part of the linked list as the right child of the root node.
 -> Recur until a single node is obtained in the left as well as the right parts of the lists and create 
 separate nodes for them, respectively. 
--> In the last step, return the root node.
+-> In the last step, return the root node. 
 */
 
 class Solution {
