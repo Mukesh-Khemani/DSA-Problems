@@ -9,6 +9,7 @@ an argument and returns true if trees are the mirror and false if trees are not
 mirrored. The issymmetric() function recursively checks two roots and subtrees 
 under the root.
 
+WORKING:
 For two trees to be symmetric, the following conditions must be true:
 -> Their root node's key must be same
 -> left subtree of left tree and right subtree of right tree have to be symmetric
