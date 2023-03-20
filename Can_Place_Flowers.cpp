@@ -4,7 +4,7 @@ using namespace std;
 /*
 INTUITION:
 In order to place a tree at the start or the end, we need two consecutive empty places
-and in any other case, we need three consecutive empty places in order to fulfil the 
+and in any other case, we need three consecutive empty places so as to meet the 
 no-adjacent-flowers rule i.e.  flowers cannot be planted in adjacent plots.
 */
 
