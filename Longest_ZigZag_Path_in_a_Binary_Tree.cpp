@@ -4,8 +4,8 @@ using namespace std;
 /*
 INTUITION:
 We need to find the length of the maximum zigzag subtree. For that
-we traverse the entire tree untill we reach the leaf nodes. Some imp
-points to keep in my while Depth-First Search:
+we traverse the entire tree until we reach the leaf nodes. Some imp
+points to keep in mind while Depth-First Search:
 -> If we are have a parent node which is a left child, we cannot combine
 the edges going into parent and left subchild, because they do not form a
 zigzag path. We can only begin a new zigzag path of length 1 by including
