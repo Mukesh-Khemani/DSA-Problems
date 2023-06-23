@@ -3,11 +3,11 @@ using namespace std;
 
 /*
 APPROACH:
-The solution iterates through each element of the input array nums.
-For each element, it compares it with all previous elements to find
-the common difference and update the corresponding dp value. If there
-is a previous subsequence with the same common difference, the length
-is incremented by 1. Otherwise, a new subsequence of length 2 is started.
+So we start by iterating through each element of the input array nums.
+For each element, we compare it with all previous elements to find
+the common difference and update the corresponding dp value. If we find
+a previous subsequence with the same common difference, we increment the
+length by 1. Otherwise, we create a new subsequence of length 2.
 */
 
 class Solution
