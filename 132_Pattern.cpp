@@ -21,14 +21,14 @@ public:
     bool find132pattern(vector<int> &nums)
     {
         stack<int> s;
-        int third = INT_MIN;
+        int var = INT_MIN;
         for (int i = nums.size() - 1; i >= 0; i--)
         {
-            if (nums[i] < third)
+            if (nums[i] < var)
                 return true;
             while (!s.empty() and s.top() < nums[i])
             {
-                third = s.top();
+                var = s.top();
                 s.pop();
             }
             s.push(nums[i]);
