@@ -10,7 +10,6 @@ of 1s in each row and column using the row and col vectors, and then to identify
 and count the special elements. By checking for rows and columns with only one 1,
 we effectively determine the number of special elements in the matrix.
 */
-
 class Solution
 {
 public:
