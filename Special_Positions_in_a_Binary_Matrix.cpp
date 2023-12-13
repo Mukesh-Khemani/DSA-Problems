@@ -20,7 +20,6 @@ public:
         int n = mat[0].size();
         vector<int> row(m, 0);
         vector<int> col(n, 0);
-
         for (int r = 0; r < m; r++)
         {
             for (int c = 0; c < n; c++)
@@ -32,7 +31,6 @@ public:
                 }
             }
         }
-
         int ans = 0;
         for (int r = 0; r < m; r++)
         {
@@ -47,7 +45,6 @@ public:
                 }
             }
         }
-
         return ans;
     }
 };
