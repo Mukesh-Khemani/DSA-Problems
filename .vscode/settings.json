@@ -3,6 +3,12 @@
     "__bit_reference": "cpp",
     "bitset": "cpp",
     "unordered_map": "cpp",
-    "chrono": "cpp"
+    "chrono": "cpp",
+    "__node_handle": "cpp",
+    "__split_buffer": "cpp",
+    "array": "cpp",
+    "string": "cpp",
+    "string_view": "cpp",
+    "vector": "cpp"
   }
 }
